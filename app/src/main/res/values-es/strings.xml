@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Competencia</string>
+    <string name="score_label">0</string>
+    <string name="button_a">Puntaje</string>
+    <string name="button_b">Robar</string>
+    <string name="button_c">Reiniciar</string>
+</resources>
