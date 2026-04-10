@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(tag, "Score incremented to $score")
         playClickSound()
 
-        if (score > winThreshold && !hasWon) {
+        if (score >= winThreshold && !hasWon) {
             hasWon = true
             Log.i(tag, "Win condition reached at score $score")
             playWinSound()
